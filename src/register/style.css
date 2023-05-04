@@ -1,0 +1,104 @@
+
+h1{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: 50px auto;
+}
+.sec-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sec-input input{
+    border: solid 1px rgb(173, 171, 171);
+    padding: 15px;
+    border-radius: 3px;
+    width: 70%;
+}
+.sec-input input:focus{
+    outline: none;
+}
+.sec-input div{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    gap: 10px;
+}
+.sec-input div input{
+    width: 25px;
+    height: 25px;
+    border: solid 1px rgb(173, 171, 171);
+
+}
+.sec-input div a{
+    color: #000;
+    
+}
+.sec-input button{
+    width: 75%;
+    background-color: rgb(255, 225, 0);
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.sec-birth-parents{
+    position: relative;
+}
+.sec-birth-parents span{
+    position: absolute;
+    top: -10px;
+    padding: 0px 5px;
+    left: 10px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    font-size: 13px;
+}
+.sec-birth-parents{
+    width: 75%;
+}
+.sec-birth-parents input{
+    width: 100%!important;
+}
+.sec-slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:flex-start;
+    width: 75%;
+}
+.sec-slider p{
+    text-align: start;
+    width: 100%;
+}
+.css-14pt78w-MuiSlider-rail{
+    background-color: rgba(128, 128, 128, 0.478)!important;
+    height: 1px!important;
+}
+.css-1gv0vcd-MuiSlider-track{
+    background-color: gray!important;
+    border: none;
+    height: 1px!important;
+
+}
+.css-ysth1j-MuiSlider-root {
+   color: gray!important;
+
+}
+.css-6cwnna-MuiSlider-mark{
+    background-color: red!important;
+}
+.css-eg0mwd-MuiSlider-thumb{
+    background-color: #fff!important;
+    width: 16px!important;
+    height: 16px!important;
+
+    border: solid 2px gray;
+}
